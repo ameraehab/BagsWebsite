@@ -1,16 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html'],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
         dim: {
-          bodybg: "red",
+          colorGray: "#ede8d0",
         }
       },
       backgroundImage: {
         navBackground: "url('/images/backgroundImage-coveNav.png')",
-      }
+      },
+      fontFamily: {
+        custom1: 'My-Custom-Font1',
+        custom2: 'My-Custom-Font2',
+        custom3: 'My-Custom-Font3',
+        custom4: 'My-Custom-Font4',
+      },
     },
   },
   plugins: [],
