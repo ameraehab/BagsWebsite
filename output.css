@@ -602,9 +602,6 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
   padding-bottom: 1rem;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 100ms;
 }
 
 .links-border:hover {
@@ -753,6 +750,10 @@ video {
   color: rgb(237 232 208 / var(--tw-text-opacity, 1));
 }
 
+.duration-500 {
+  transition-duration: 500ms;
+}
+
 @font-face{
   font-family:'My-Custom-Font1';
 
@@ -775,6 +776,16 @@ video {
   font-family:'My-Custom-Font4';
 
   src:url('./fonts/Work_Sans/static/WorkSans-SemiBold.ttf') format('truetype');
+}
+
+.hover\:bg-black:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 
