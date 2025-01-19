@@ -620,6 +620,94 @@ video {
   bottom: 4rem;
 }
 
+.left-16 {
+  left: 4rem;
+}
+
+.top-14 {
+  top: 3.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.top-40 {
+  top: 10rem;
+}
+
+.top-36 {
+  top: 9rem;
+}
+
+.top-32 {
+  top: 8rem;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
+.left-24 {
+  left: 6rem;
+}
+
+.left-2\/4 {
+  left: 50%;
+}
+
+.top-11 {
+  top: 2.75rem;
+}
+
+.top-\[28\%\] {
+  top: 28%;
+}
+
+.top-\[50\%\] {
+  top: 50%;
+}
+
+.top-\[65\%\] {
+  top: 65%;
+}
+
+.top-\[62\%\] {
+  top: 62%;
+}
+
+.top-\[6\%\] {
+  top: 6%;
+}
+
+.top-80 {
+  top: 20rem;
+}
+
+.top-72 {
+  top: 18rem;
+}
+
+.top-64 {
+  top: 16rem;
+}
+
+.top-2\/4 {
+  top: 50%;
+}
+
+.top-3\/4 {
+  top: 75%;
+}
+
+.top-2\/3 {
+  top: 66.666667%;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .ml-10 {
   margin-left: 2.5rem;
 }
@@ -632,12 +720,144 @@ video {
   margin-left: 5rem;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
 .ml-7 {
   margin-left: 1.75rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .mt-80 {
   margin-top: 20rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mr-32 {
+  margin-right: 8rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.ml-64 {
+  margin-left: 16rem;
+}
+
+.ml-96 {
+  margin-left: 24rem;
+}
+
+.ml-\[95\] {
+  margin-left: 95;
+}
+
+.ml-\[95px\] {
+  margin-left: 95px;
+}
+
+.ml-\[95\%\] {
+  margin-left: 95%;
+}
+
+.ml-\[20\%\] {
+  margin-left: 20%;
+}
+
+.ml-\[50\%\] {
+  margin-left: 50%;
+}
+
+.ml-\[40\%\] {
+  margin-left: 40%;
+}
+
+.ml-\[35\%\] {
+  margin-left: 35%;
+}
+
+.ml-\[34\.89\%\] {
+  margin-left: 34.89%;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.ml-48 {
+  margin-left: 12rem;
+}
+
+.mr-48 {
+  margin-right: 12rem;
+}
+
+.mb-80 {
+  margin-bottom: 20rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.ml-\[36\%\] {
+  margin-left: 36%;
+}
+
+.ml-\[3\%\] {
+  margin-left: 3%;
+}
+
+.ml-\[25\%\] {
+  margin-left: 25%;
+}
+
+.ml-44 {
+  margin-left: 11rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-52 {
+  margin-left: 13rem;
+}
+
+.mt-\[50\%\] {
+  margin-top: 50%;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .flex {
@@ -646,6 +866,18 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-3\/6 {
+  width: 50%;
 }
 
 .w-60 {
@@ -673,8 +905,17 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
 }
 
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
+}
+
 .bg-navBackground {
   background-image: url('/images/backgroundImage-coveNav.png');
+}
+
+.bg-BeDiffrentBg {
+  background-image: url('/images/360_F_611673746_sOmwqM334PXbw8Ptn7S3QNjcRoMVp8lZ.jpg');
 }
 
 .bg-cover {
@@ -701,12 +942,52 @@ video {
   padding-right: 5rem;
 }
 
+.pt-12 {
+  padding-top: 3rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pl-80 {
+  padding-left: 20rem;
+}
+
+.pl-60 {
+  padding-left: 15rem;
+}
+
+.pl-56 {
+  padding-left: 14rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pl-20 {
+  padding-left: 5rem;
+}
+
+.pl-32 {
+  padding-left: 8rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-custom2 {
@@ -741,6 +1022,11 @@ video {
   line-height: 1.25rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -748,6 +1034,16 @@ video {
 .text-dim-colorGray {
   --tw-text-opacity: 1;
   color: rgb(237 232 208 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .duration-500 {
@@ -776,6 +1072,11 @@ video {
   font-family:'My-Custom-Font4';
 
   src:url('./fonts/Work_Sans/static/WorkSans-SemiBold.ttf') format('truetype');
+}
+
+.hover\:border-black:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
 }
 
 .hover\:bg-black:hover {
