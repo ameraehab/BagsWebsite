@@ -10,6 +10,7 @@ module.exports = {
       },
       backgroundImage: {
         navBackground: "url('/images/backgroundImage-coveNav.png')",
+        BeDiffrentBg: "url('/images/360_F_611673746_sOmwqM334PXbw8Ptn7S3QNjcRoMVp8lZ.jpg')"
       },
       fontFamily: {
         custom1: 'My-Custom-Font1',
