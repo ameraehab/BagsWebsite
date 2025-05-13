@@ -17,81 +17,103 @@
 	<body class="overflow-x-hidden">
 		<!--Header-->
 		<div
-			class="container bg-navBackground bg-cover bg-center min-h-screen px-4 sm:px-6 lg:px-20">
+			class="bg-navBackground relative h-screen bg-cover bg-center bg-no-repeat">
 			<!-- Navbar -->
-			<div class="flex justify-between items-center py-4">
+
+			<div class="grid grid-cols-2 sm:grid-cols-3 sm:p-6 p-3">
 				<!-- Logo -->
-				<div class="flex items-center">
-					<h1 class="font-custom4 text-3xl xl:text-5xl">YOTA</h1>
-					<p class="text-dim-colorGray font-medium sm:text-sm ml-2">Bags</p>
+				<div class="flex ml-3">
+					<h1 class="font-custom4 text-xl sm:text-[40px]">YOTA</h1>
+					<p
+						class="text-dim-colorGray font-custom2 sm:text-base sm:relative sm:top-[-10px] text-xs">
+						Bags
+					</p>
 				</div>
 
 				<!-- Desktop Navigation -->
-				<nav class="hidden md:flex gap-5 font-custom3">
-					<a href="#" class="links links-border">Home</a>
-					<a href="#" class="links links-border">Bags</a>
-					<a href="#" class="links links-border">About Us</a>
-					<a href="#" class="links links-border">Contact</a>
+				<nav
+					class="font-custom3 nav-hidden sm:relative sm:top-2 sm:w-[420px] lg:right-10 lg:left-16">
+					<a href="#" class="links"><span class="links-border">Home</span></a>
+					<a href="#" class="links"><span class="links-border">Bags</span></a>
+					<a href="#" class="links"
+						><span class="links-border">About Us</span></a
+					>
+					<a href="#" class="links"
+						><span class="links-border">Contact</span></a
+					>
 				</nav>
 
 				<!-- Icons & Mobile Menu Button -->
-				<div class="flex items-center gap-5">
-					<i class="fa-solid fa-search"></i>
-					<i class="fa-solid fa-shopping-cart"></i>
-					<a href="#" class="font-custom2 text-lg">LOGIN</a>
+				<div class="sm:relative sm:top-2 sm:col-start-4 col-start-3">
+					<i class="fa-solid fa-search pl-2 text-base"></i>
+					<i class="fa-solid fa-shopping-cart pl-2 text-base"></i>
+					<a href="#" class="font-custom2 text-base pl-2">LOGIN</a>
 
 					<!-- Mobile Menu Button -->
-					<button id="menu-toggle" class="text-2xl md:hidden">
-						<i class="fa-solid fa-bars"></i>
+					<button id="menu-toggle" class="md:hidden pl-2">
+						<i class="fa-solid fa-bars text-base"></i>
 					</button>
 				</div>
 			</div>
 
 			<!-- Headline -->
-			<div
-				class="mt-44 sm:mt-48 md:mt-80 lg:mt-[10rem] xl:mt-72 text-center sm:text-left">
-				<h1 class="font-custom3 text-4xl sm:text-5xl md:text-7xl">
-					Original <br />
-					<span class="sm:pl-20 md:pl-6 lg:pl-64">Bags</span>
+			<div class="p-12">
+				<h1 class="font-custom3 text-xl ml-3 sm:text-7xl">
+					Original
+					<span>Bags</span>
 				</h1>
 				<p
-					class="font-custom2 text-sm sm:text-base w-4/5 md:w-64 lg:mt-[-70px] m-auto sm:m-0">
+					class="font-custom4 text-[8px] w-40 text-center sm:text-lg sm:font-sans sm:w-72 sm:text-left">
 					Welcome to our Consignment Designer Handbag section. The perfect place
 					for cheap designer handbags.
 				</p>
 				<a
 					href=""
-					class="border border-black px-6 py-3 font-medium mt-6 inline-block hover:bg-black hover:text-white transition-all duration-500">
+					class="sm:p-4 sm:text-lg border border-black font-medium inline-block hover:bg-black hover:text-white transition-all duration-500 text-xs p-1">
 					SHOP NOW
 				</a>
 			</div>
 		</div>
 
 		<!---A few words about us-->
-		<div class="grid grid-cols-1 sm:grid-cols-2">
-			<div class="text-center">
-				<h1 class="">A Few Words About US</h1>
-				<p class="text-gray-600">We are an Bags brand from Cairo, EGYPT</p>
+
+		<div class="grid grid-cols-1 sm:grid-cols-2 mt-10 lg:h-[490px]">
+			<div class="text-center sm:mt-20">
+				<h1 class="text-center sm:mb-10 sm:text-5xl text-3xl font-bold">
+					A Few Words About US
+				</h1>
 				<p
-					class="border border-black font-medium hover:bg-black hover:text-white translate-all duration-500 text-center p-2 w-36 cursor-pointer">
+					class="text-gray-600 font-custom4 mt-4 text-wrap text-sm sm:text-base pl-1">
+					We are an Bags brand from Cairo, EGYPT, An About Us page is a section
+					on a website that provides information about a company, organization,
+					or individual. It’s an opportunity to tell your brand’s story, share
+					your vision or mission, introduce team members, and outline your
+					history and achievements. This is where you build trust and
+					credibility with customers.
+				</p>
+				<p
+					class="border border-black font-medium hover:bg-black hover:text-white translate-all duration-500 text-center p-2 w-36 cursor-pointer sm:mt-[10%] sm:ml-[40%] relative top-32 left-8 sm:left-0 sm:top-[-20px]">
 					Read More
 				</p>
 			</div>
-			<img src="/images/71qVfhILOwS._AC_SY695_.jpg" class="sm:w-[80%]" />
+
+			<img
+				src="/images/Capture.PNG"
+				class="relative sm:h-[95%] lg:h-[68%] lg:w-[100%] sm:pr-3 bottom-5" />
 		</div>
 
 		<!--Show Product-->
-		<div class="grid grid-cols-1 sm:grid-cols-2 mt-10 mb-10">
+		<div class="grid grid-cols-1 sm:grid-cols-2 mb-10">
 			<img
-				src="../images/shoulder-bag-681mut-1.jpg "
+				src="/images/shoulder-bag-681mut-1.jpg "
 				class="w-[100%] h-[100%] sm:w-[90%] sm:h-[100%]" />
 
 			<div class="p-20 text-left sm:ml-[10%]">
 				<img
-					src="../images/21326116_51338822_600.jpg"
+					src="/images/21326116_51338822_600.jpg"
 					class="w-[60%] h-[55%] sm:w-[70%] sm:h-[45%] mt-[-35%] ml-[20%] sm:mt-0 sm:ml-0" />
 				<h1 class="font-custom3 text-2xl">Dior</h1>
-				<p class="text-wrap w-[380px] text-base">
+				<p class="text-wrap w-[380px] text-base sm:w-56">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
 					tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
 				</p>
@@ -110,7 +132,7 @@
 			<div class="grid grid-cols-2 gap-5 sm:grid-cols-2 lg:grid-cols-3">
 				<div class="ml-2 sm:ml-0">
 					<img
-						src="../images/photo_2025-02-07_00-16-22.jpg"
+						src="/images/photo_2025-02-07_00-16-22.jpg"
 						class="w-[100%] h-[50%] sm:w-[95%] sm:h-[60%] lg:w-[100%] lg:h-96" />
 					<div class="m-3">
 						<i class="fa-regular fa-star"></i>
@@ -126,7 +148,7 @@
 				</div>
 				<div class="ml-2 sm:ml-0">
 					<img
-						src="../images/photo_2025-02-07_00-33-42.jpg"
+						src="/images/photo_2025-02-07_00-33-42.jpg"
 						class="w-[100%] h-[50%] sm:w-[95%] sm:h-[60%] lg:w-[100%] lg:h-96" />
 					<div class="m-3">
 						<i class="fa-regular fa-star"></i>
@@ -142,7 +164,7 @@
 				</div>
 				<div class="ml-2 sm:ml-0">
 					<img
-						src="../images/photo_2025-02-07_00-36-55.jpg"
+						src="/images/photo_2025-02-07_00-36-55.jpg"
 						class="w-[100%] h-[50%] sm:w-[95%] sm:h-[60%] lg:w-[100%] lg:h-96" />
 					<div class="m-3">
 						<i class="fa-regular fa-star"></i>

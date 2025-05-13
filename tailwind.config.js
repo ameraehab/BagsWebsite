@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./*.{html,js}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -9,7 +11,7 @@ module.exports = {
         }
       },
       backgroundImage: {
-        navBackground: "url('/images/backgroundImage-coveNav.png')",
+        navBackground: "url('./images/backgroundImage-coveNav.jpg')",
         BeDiffrentBg: "url('/images/360_F_611673746_sOmwqM334PXbw8Ptn7S3QNjcRoMVp8lZ.jpg')"
       },
       fontFamily: {

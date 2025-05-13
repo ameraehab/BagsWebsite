@@ -5,16 +5,17 @@
 
 @layer components{
   .links{
-       @apply text-dim-colorGray hover:text-black ;
+       @apply text-dim-colorGray hover:text-black  sm:pl-8 lg:text-xl  ;
     }
     .links-border{
-        @apply  hover:border-b-2 border-black pb-4  ;
+        @apply  hover:border-b-2 border-black pb-4   ;
  
 
     }
     .nav-hidden{
         @apply hidden md:block;
     }
+  
    
 }
 
